@@ -22,7 +22,7 @@ export const ContactSection = ({ id }: SectionProps) => {
                 Let's create something amazing together
               </h2>
               <p className="text-sm md:text-base mt-2">
-                Ready to bring your next project to life? Let's connect and I
+                Ready to bring your next project to life? Let&apos;s connect and I
                 can help you achieve your goals.
               </p>
             </div>
