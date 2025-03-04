@@ -2,6 +2,7 @@ import Image from "next/image";
 import CheckIcon from "@/assets/icons/check-circle.svg";
 import ArrowOpen from "@/assets/icons/arrow-open.svg";
 import remediesProject from "@/assets/projects/remedies.png";
+import portfolioProject from "@/assets/projects/portfolio.png";
 import { SegmentHeader } from "@/components/SegmentHeader";
 import { Card } from "@/components/Card";
 
@@ -29,12 +30,12 @@ const portfolioExperiences: Experience[] = [
       { title: 'Framer Motion animations' },
       { title: 'Responsive design' }
     ],
-    link: 'https://anamariamarjanovic.dev',
-    image: remediesProject
+    link: 'https://anamaria.dev',
+    image: portfolioProject
   },
   {
     company: 'Infordata Sistemi srl',
-    year: '2021',
+    year: '2023',
     title: 'Remedies Monitoring Apps',
     results: [
       { title: 'Beach litter monitoring apps' },

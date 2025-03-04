@@ -158,7 +158,7 @@ export const AboutSection = ({ id }: SectionProps) => {
               <ToolboxItems
                 items={toolboxItems}
                 className="mt-6"
-                itemsWrapperClassName="animate-move-right [animation-duration:15s]"
+                itemsWrapperClassName="animate-move-right [animation-duration:17s]"
               />
             </Card>
           </div>

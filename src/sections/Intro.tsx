@@ -20,6 +20,13 @@ export const IntroSection = ({ id }: SectionProps) => {
     }
   };
 
+  const openContact = () => {
+    const targetSection = document.getElementById("contact");
+    if (targetSection) {
+      targetSection.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  };
+
   return (
     <section id={id} className="py-32 md:py-48 lg:py-60 relative z-0 overflow-x-clip min-h-screen">
       <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_70%,transparent)]">
@@ -113,7 +120,7 @@ export const IntroSection = ({ id }: SectionProps) => {
           <IconStar className="size-28 text-green-500" />
         </IntroGraphic>
       </div>
-      <div className="container">
+      <div className="container relative z-1">
         <div className="flex flex-col items-center">
           <Image
             src={memojiImage}
@@ -127,22 +134,21 @@ export const IntroSection = ({ id }: SectionProps) => {
             <div className="text-sm font-medium">Open to New Oportunities</div>
           </div>
         </div>
-        <div className="max-w-lg mx-auto">
+        <div className="max-w-xxl mx-auto text-center">
           <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide">
-            Building Intuitive & High-Performance Web Applications
+            software engineer, front end and app developer.
           </h1>
-          <p className="mt-4 text-center text-white/60 md:text-lg">
-            I specialize in transforming creative concepts into sleek,
-            functional, and user-friendly digital experiences. Let’s
-            collaborate!
+          <p className="mt-4 text-center max-w-xl text-white/60 md:text-lg mx-auto">
+            Hi, I&apos;m Anamaria. I specialize in transforming creative concepts into sleek,
+            functional, and user-friendly digital experiences.
           </p>
         </div>
         <div className="flex flex-col md:flex-row justify-center items-center mt-8 gap-4">
-          <button className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl">
+          <button onClick={openProjects} className="inline-flex items-center gap-2 border border-white/15 px-6 h-12 rounded-xl cursor-pointer">
             <span className="font-semibold">View My Portfolio</span>
             <ArrowDown className="size-4" />
           </button>
-          <button onClick={openProjects} className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
+          <button onClick={openContact} className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl cursor-pointer">
             <span>👋</span>
             <span className="font-semibold">Get in Touch</span>
           </button>
