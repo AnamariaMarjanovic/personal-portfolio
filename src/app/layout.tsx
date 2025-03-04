@@ -12,7 +12,7 @@ const calistoga = Calistoga({
 
 export const metadata: Metadata = {
   title: "Anamaria Marjanovic",
-  description: "Created with the help of Frontend Tribe",
+  description: "Hi, I'm Anamaria Marjanovic! A passionate frontend developer crafting seamless web experiences with Next.js and modern design principles.",
 };
 
 export default function RootLayout({
@@ -22,7 +22,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={twMerge(inter.variable, calistoga.variable, "bg-gray-900 text-white antialiased font-sans")}>{children}</body>
+      <body className={twMerge(inter.variable, calistoga.variable, "bg-gray-900 text-white antialiased font-sans relative z-[-1]")}>{children}</body>
     </html>
   );
 }

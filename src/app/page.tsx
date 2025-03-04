@@ -7,7 +7,7 @@ import { Footer } from '@/sections/Footer';
 
 export default function Main() {
   return (
-    <div>
+    <div className='relative z-[-1]'>
       <Header />
       <IntroSection id="intro"/>
       <ExperiencesSection id="experiences" />
