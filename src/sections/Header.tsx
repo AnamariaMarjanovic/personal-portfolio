@@ -44,20 +44,28 @@ export const Header = () => {
           Home
         </a>
         <a
-          href="#experiences"
-          className={`nav-item ${
-            activeSection === "experiences" ? "bg-white text-gray-900" : ""
-          }`}
-        >
-          Projects
-        </a>
-        <a
           href="#about"
           className={`nav-item ${
             activeSection === "about" ? "bg-white text-gray-900" : ""
           }`}
         >
           About
+        </a>
+        <a
+          href="#projects"
+          className={`nav-item ${
+            activeSection === "projects" ? "bg-white text-gray-900" : ""
+          }`}
+        >
+          Projects
+        </a>
+        <a
+          href="#experience"
+          className={`nav-item ${
+            activeSection === "experience" ? "bg-white text-gray-900" : ""
+          }`}
+        >
+          Experience
         </a>
         <a
           href="#contact"
