@@ -14,7 +14,7 @@ export default function Main() {
       <Header />
       <IntroSection id="intro"/>      
       <ProjectsSection id="projects" />
-      <ExperienceList id="experience" />
+      <ExperienceList id="projects" />
       <AboutSection id="about" />
       <ContactSection id="contact" />
       <Footer />
