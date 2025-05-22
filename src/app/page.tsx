@@ -13,9 +13,9 @@ export default function Main() {
       <Analytics />
       <Header />
       <IntroSection id="intro"/>      
-      <AboutSection id="about" />
       <ProjectsSection id="projects" />
       <ExperienceList id="experience" />
+      <AboutSection id="about" />
       <ContactSection id="contact" />
       <Footer />
     </div>

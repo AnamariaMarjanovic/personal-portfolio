@@ -4,6 +4,7 @@ import ArrowOpen from "@/assets/icons/arrow-open.svg";
 import portfolioProject from "@/assets/projects/portfolio.png";
 import { SegmentHeader } from "@/components/SegmentHeader";
 import { Card } from "@/components/Card";
+import bowlingScoreboardProject from '@/assets/projects/bowling-scoreboard.png';
 
 interface SectionProps {
   id?: string;
@@ -24,13 +25,26 @@ const portfolioProjects: Project[] = [
     year: '2025',
     title: 'Portfolio',
     results: [
+      { title: 'Build with Angular (v19) and NgRx' },
+      { title: 'Calculates bowling scores per frame' },
+      { title: 'Modular, testable architecture' },
+      { title: 'Live demo hosted on Vercel' }
+    ],
+    link: 'https://anamaria.dev',
+    image: portfolioProject
+  },
+  {
+    company: 'My Work',
+    year: '2025',
+    title: 'Bowling Scoreboard',
+    results: [
       { title: 'Personal portfolio website' },
       { title: 'React, Next.js and Tailwind CSS' },
       { title: 'Framer Motion animations' },
       { title: 'Responsive design' }
     ],
-    link: 'https://anamaria.dev',
-    image: portfolioProject
+    link: 'https://bowling-scorecard.vercel.app/',
+    image: bowlingScoreboardProject
   }
 ];
 
