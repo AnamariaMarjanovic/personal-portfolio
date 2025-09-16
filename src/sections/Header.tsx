@@ -43,15 +43,7 @@ export const Header = () => {
         >
           Home
         </a>
-        <a
-          href="#about"
-          className={`nav-item ${
-            activeSection === "about" ? "bg-white text-gray-900" : ""
-          }`}
-        >
-          About
-        </a>
-        <a
+          <a
           href="#projects"
           className={`nav-item ${
             activeSection === "projects" ? "bg-white text-gray-900" : ""
@@ -60,13 +52,13 @@ export const Header = () => {
           Projects
         </a>
         <a
-          href="#experience"
+          href="#about"
           className={`nav-item ${
-            activeSection === "experience" ? "bg-white text-gray-900" : ""
+            activeSection === "about" ? "bg-white text-gray-900" : ""
           }`}
         >
-          Experience
-        </a>
+          About
+        </a>      
         <a
           href="#contact"
           className={`nav-item ${
