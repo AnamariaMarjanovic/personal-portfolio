@@ -18,7 +18,33 @@ interface SectionProps {
 
 const experiences = [
   {
-    date: "OCT 2022 — PRESENT",
+    date: "JUL 2025 — PRESENT",
+    title: "Frontend Developer",
+    company: "CompuGroup Medical Italia, Brescia",
+    description:
+      "Developing and maintaining the front-end of STELLA, a modern cloud-based pharmacy management solution at CompuGroup Medical Italia. Focused on building scalable Angular components, state management with NgRx, and delivering responsive, accessible interfaces for pharmacists.",
+    skills: [
+      "TypeScript",
+      "Angular",
+      "Components, directives, pipes",
+      "NgRx",
+      "RxJS",
+      "HTML5",
+      "CSS3",
+      "Responsive Design",
+      "Material Design",
+      "RESTful APIs",
+      "i18n",
+      "GitLab",
+      "PostgreSQL",
+      "Jira",
+      "Confluence",
+      "Agile methodologies",
+      "Scrum"
+    ],
+  },
+  {
+    date: "OCT 2022 — JUL 2025",
     title: "Frontend Developer",
     company: "Infordata Sistemi srl, Trieste",
     description:
@@ -32,6 +58,9 @@ const experiences = [
       "Material Design",
       "RESTful APIs",
       "i18n",
+      "Bitbucket",
+      "Jira",
+      "Confluence"
     ],
   },
   {
